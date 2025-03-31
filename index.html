@@ -1,6 +1,37 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLEASE HIRE ME</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            animation: strobe 0.1s infinite;
+        }
+        h1 {
+            font-size: 5rem;
+            animation: text-strobe 0.1s infinite;
+        }
+        @keyframes strobe {
+            0% { background-color: white; }
+            50% { background-color: black; }
+            100% { background-color: white; }
+        }
+        @keyframes text-strobe {
+            0% { color: black; }
+            50% { color: white; }
+            100% { color: black; }
+        }
+    </style>
+</head>
 <body>
-<p>yeah</p>
+    <h1>PLEASE HIRE ME</h1>
 </body>
 </html>
